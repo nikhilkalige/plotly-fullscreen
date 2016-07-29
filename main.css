@@ -1,0 +1,48 @@
+.plotly-expand:hover {
+    background-color: #25a7f3;
+    background-image: url("./images/collapse_white@2x.png");
+}
+
+.plotly-expand {
+    top: 10px;
+    left: 12px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    background: transparent url("./images/collapse@2x.png") no-repeat center center;
+    -webkit-background-size: 11px;
+    -moz-background-size: 11px;
+    background-size: 11px;
+    z-index: 1;
+}
+
+.plotly-expand:hover.collapsed {
+    background-image: url("./images/expand_white@2x.png");
+}
+
+.plotly-expand.collapsed {
+    background-image: url("./images/expand@2x.png");
+}
+
+.output_subarea {
+    position: relative;
+}
+
+.plotly-fullscreen {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    max-width: 100% !important;
+    background: black;
+}
+
+.plotly-zindex {
+    z-index: 99 !important;
+}
+
+.plotly-center {
+    margin: 0 auto !important;
+}
