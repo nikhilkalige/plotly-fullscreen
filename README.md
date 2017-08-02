@@ -13,4 +13,5 @@ $ jupyter nbextension enable plotly-fullscreen/main --user
 
 ## References
 [Blog, with detailed description](http://shortcircuits.io/jupyter-extension-plotly-fullscreen.html)
+
 [Ipython Notebook](https://raw.githubusercontent.com/nikhilkalige/nikhilkalige.github.io/develop/content/2016/jupyter-extension-plotly-fullscreen.ipynb)
